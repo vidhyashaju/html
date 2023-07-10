@@ -1,0 +1,22 @@
+table{
+    
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+    
+}
+table,td,tr,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 5px;
+    
+}
+tr{
+    border-spacing: 6px;
+}
+caption{
+    text-align: center;
+    
+}

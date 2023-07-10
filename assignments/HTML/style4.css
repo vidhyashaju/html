@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+}
+table,tr,td,th{
+border: 1px solid black;
+border-collapse: collapse;
+padding-bottom: 2%;
+text-align: left;
+width: 40%;
+
+}
+.name{
+    font-weight: bold;
+}

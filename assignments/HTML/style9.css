@@ -1,0 +1,19 @@
+h1{
+    text-align:center;
+}
+h3{
+    text-align: center;
+}
+tr{
+    align-content: center;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+button{
+    align-content: center;
+    width: 30;
+    padding:8px
+}

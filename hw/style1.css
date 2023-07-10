@@ -1,0 +1,19 @@
+.card{
+       margin: 2%;
+       height: 20%;
+       width: 50%;
+  
+    
+}
+/* li{
+    font-weight: bold;
+    background-size: cover;
+    border-radius: 50%;
+    background-color: bisque;
+} */
+h1{
+    text-align: center;
+}
+.card-body{
+    align-content: center;
+}

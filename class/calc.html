@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Enter ur number</label>
+    <input type="text" id="txt">
+    <label for="">Enter ur number</label>
+    <input type="text" id="txt1">
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <input type="text" id="res">
+    <script>
+        function add()
+        {
+            var a,b,c;
+            a=Number(document.getElementById('txt').value);
+            b=Number(document.getElementById('txt1').value);
+            c=a+b;
+            document.getElementById('res').value=c;
+        }
+        function sub()
+        {
+            var a,b,c;
+            a= Number(document.getElementById('txt').value);
+            b=Number(document.getElementById('txt1').value);
+            c=a-b;
+            document.getElementById('res').value=c;
+        }
+        function mul()
+        {
+            var a,b,c;
+            a=Number(document.getElementById('txt').value);
+            b=Number(document.getElementById('txt1').value);
+            c=a*b;
+            document.getElementById('res').value=c;
+        }
+    
+    
+    </script>
+</body>
+</html>
